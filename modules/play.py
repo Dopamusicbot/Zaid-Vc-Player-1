@@ -540,7 +540,7 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton(
                     "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/UNIVERSAL_OP_CHAT"),
             ],
         ]
     )
@@ -580,7 +580,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="☑️ ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ {} 😎".format(
+            caption="☑️ ᴅᴏᴘᴀ ᴜꜱᴇʀ ʙʏ {} 😎".format(
                 message.from_user.mention()
             ),
         )
@@ -682,9 +682,9 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"
+                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/UNIVERSAL_OP_CHAT"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/UNIVERSAL_OP_CHAT"),
             ],
         ]
     )
@@ -727,6 +727,6 @@ async def jiosaavn(client: Client, message_: Message):
         chat_id=message_.chat.id,
         reply_markup=keyboard,
         photo="final.png",
-        caption=f"ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ {sname} Via saavn",
+        caption=f"ᴅᴏᴘᴀ ᴜꜱᴇʀ ʙʏ {sname} Via saavn",
     )
     os.remove("final.png")
